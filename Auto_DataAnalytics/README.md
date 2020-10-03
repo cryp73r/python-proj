@@ -14,7 +14,8 @@ With just a single line of Code, one can analyse complex datasets independent of
 <ol> 9)Automated Pearson's Correlation Maps and much more graphs such as Scatterplots, Barplots etc. </ol>
 
 ### Limitations : <br>
-Works only with Tabular Files and Datasets
-of Excel, CSV, PSV and TSV types.
+<ul>Works only with Tabular Files and Datasets
+of Excel, CSV, PSV and TSV types.</ul>
+<ul> Visualizations are good in i-python notebooks such as Jupyter, Kaggle, Colab Notebooks when compared to IDLE and VS Code.</ul>
 
 Further UPDATES and BUG FIXES are most Welcome !!
