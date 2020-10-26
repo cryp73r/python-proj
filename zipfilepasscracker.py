@@ -12,7 +12,9 @@ if len(sys.argv) == 3:
         pwd = words.strip()
         try:
             zf.extractall(pwd = str.encode(pwd))
-            print("Password found: {}".format(pwd))
-            exit(0)
+            print("[+] Password found: {} Success".format(pwd))
+            break
+
         except:
             continue
+        else:print("[-] Not Found use more dense wordlist")
