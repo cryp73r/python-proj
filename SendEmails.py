@@ -22,5 +22,6 @@ mail.starttls()
 mail.login(email,password)
 text = msg.as_string()
 mail.sendmail(senderadd,reciveradd,text)
+#printing if mail sent
 print("Sent!")
 mail.quit()
